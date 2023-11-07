@@ -20,13 +20,15 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/woman-with-tablet.jpg";
+// import image from "../images/woman-with-tablet.jpg";
+import image from "../images/luca-bravo-XJXWbfSo2f0-unsplash.jpg";
+
 
 const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 
 const Home = ({ name, title }) => {
   return (
-    <section id="home" className="min-height">
+    <section id="home" className="min-height  " style={{color:"white"}}>
       <img className="background" src={image} alt="" />
       <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
         <h1>{name}</h1>
